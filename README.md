@@ -1,11 +1,35 @@
-<div align="center">
+# NEOSHIFT: 复古大冒险 (Retro Adventure)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+一个基于 HTML5 Canvas 开发的“复古极繁主义”风横版跳跃游戏。本作融合了经典马里奥式的视觉元素与现代化的响应式设计，带给玩家纯粹的 8/16 位机时代怀旧体验。
 
-  <h1>Built with AI Studio</h2>
+## 游戏特点
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **视觉风格**：复古像素艺术，结合极繁主义 UI 设计，拥有鲜艳的配色和厚重的描边。
+- **动态关卡**：随机生成的平台、障碍物与金币，每一次冒险都是全新的体验。
+- **物理系统**：支持惯性移动、土狼时间（边缘起跳容错）和跳跃按键缓冲。
+- **复活机制**：角色坠落或受伤后会尝试回到上一个接触过的安全平台。
+- **多端适配**：完美适配 PC（键盘操作）与移动端（虚拟按键）。
+- **音频合成**：内置基于 Web Audio API 的即时音效合成引擎。
+- **结算面板**：详尽的冒险报告，包括距离、得分、金币数、时长及段位评级（S/A/B/C）。
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## 操作指南
 
-</div>
+### PC 端
+- **左/右移动**：`A` / `D` 或 `←` / `→`
+- **跳跃**：`空格键` / `W` / `↑`
+
+### 移动端
+- 使用屏幕下方的**左/右箭头**控制移动。
+- 点击右侧的**向上跳跃按钮**进行跳跃。
+
+## 技术实现
+
+- **核心渲染**：HTML5 Canvas 2D API (Pixelated rendering)
+- **样式设计**：CSS3 Variables / Flexbox / Grid
+- **像素字体**：Google Fonts (Press Start 2P)
+- **逻辑逻辑**：原生 ES6+ JavaScript (RequestAnimationFrame)
+- **音频引擎**：Web Audio API (OscillatorNode / GainNode)
+
+## 开源协议
+
+本项目采用 [MIT License](LICENSE) 协议开源。
